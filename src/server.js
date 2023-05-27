@@ -30,4 +30,4 @@ const init = async () => {
 
 init();
 // untuk run nodejs menggunakan npm run start-dev
-// didalam folder api>notes adalah semua hapi plugin
+// didalam folder api/notes adalah semua hapi plugin
