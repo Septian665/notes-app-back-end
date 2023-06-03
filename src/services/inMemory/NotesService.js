@@ -19,7 +19,7 @@ class NotesService {
       const isSuccess = this._notes.filter((note) => note.id === id).length > 0;
 
       if(!isSuccess) {
-         throw new InvariantError('catatan gagal ditambahkan')
+         throw new InvariantError('Catatan gagal ditambahkan')
       }
 
       return id;
